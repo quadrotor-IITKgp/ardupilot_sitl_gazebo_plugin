@@ -49,7 +49,7 @@
    respawn="false" output="screen">
   </node>
 
-  <include file="$(find quad_simulator)/launch/irobots.launch"></include>
+  <!--<include file="$(find quad_simulator)/launch/irobots.launch"></include>-->
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="paused" value="true"/>   <!-- value unrelevant due to Arducopter plugin steps --> 
